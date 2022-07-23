@@ -8,7 +8,7 @@ require('./database');
 require('./routes/')(app)
 
 app.listen(PORT, function(){
-    console.log(`Listening on ${PORT}`);
+    console.log(`Listening on http://localhost:${PORT}`);
 });
 
 module.exports = app;
